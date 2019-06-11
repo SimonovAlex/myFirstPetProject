@@ -1,0 +1,84 @@
+.Container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin:auto;
+    width: 700px;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.loginWithUs  {
+    display: flex;
+    flex-grow: 3;
+    flex-direction:column;
+    /*width: 240px;*/
+    box-shadow:0 0 10px rgba(0,0,0,0.5);
+    transition: all .25s;
+}
+
+ .loginWithUs:hover{
+        box-shadow:0 0 10px rgba(0,0,0);
+    }
+ .loginAll:hover{
+        box-shadow:0 0 10px rgba(0,0,0);
+    }
+
+.loginAll  {
+     flex-grow: 1;
+    /*width: 120px;*/
+    transition: all .25s;
+    color: #f9f9f9;
+    background-color:#222;
+}
+
+.btnGroup  {
+    display: flex;
+    flex-direction: column;
+}
+
+.loginBTNStyle {
+    margin: 5px auto !important;
+    width: 50px;
+    display:block
+}
+
+.inputsStyle  {
+    height: 40px !important;
+    margin:5px 50px !important;
+    display:block
+}
+
+.btn  {
+    background-color: white;
+    border: none;
+    padding: 10px 5px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.btnGroup > button:hover {
+    background-color: grey;
+    transition: all .25s;
+} 
+
+.btnLinks{
+    color: black;
+    cursor: none;
+    text-decoration: none;
+}
+
+.buttonWrapper{
+    margin: 15px 0 10px 0 ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.registerBTNStyle{
+    background-color: crimson;
+    color: white;
+}
+.forgotBTNStyle{}
